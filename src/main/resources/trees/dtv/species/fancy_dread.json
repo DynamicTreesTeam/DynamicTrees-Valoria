@@ -1,0 +1,46 @@
+{
+    "family": "dtv:dread",
+    "tapering": 0.2,
+    "signal_energy": 18.0,
+    "up_probability": 1,
+    "lowest_branch_height": 6,
+    "growth_rate": 0.9,
+    "max_branch_radius": 24,
+    "growth_logic_kit": "dark_oak",    
+    "leaves_properties": "dtv:dread",
+    "cell_kit": "dark_oak",
+    "environment_factors": {
+      "#forge:is_cold": 0.75,
+      "#forge:is_hot": 0.9,
+      "#forge:is_dry": 0.5
+    },
+    "perfect_biomes": {
+      "name": ".*dread.*"
+    },
+    "primitive_sapling": "valoria:dread_sapling",
+    "jo_code_folder": "dtv:trees/dtv/jo_codes/fancy_dread",
+    "features": [
+      "bee_nest",
+      {
+        "name": "bottom_flare",
+        "properties": {
+          "min_radius": 6,
+          "scale": 3.5
+        }
+      },      
+      {
+        "name": "mound",
+        "properties": {
+          "radius": 4
+        }
+      },
+      {
+        "name": "roots",
+        "properties": {
+          "min_trunk_radius": 8,
+          "scale_factor": 16
+        }
+      }
+    ]
+  }
+

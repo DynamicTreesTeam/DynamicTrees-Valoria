@@ -149,6 +149,8 @@ dependencies {
     compileOnly fg.deobf("maven.modrinth:dynamic-trees-ru:1.20.1-1.0.1")
     compileOnly fg.deobf("maven.modrinth:regions-unexplored:F-0.5.6+1.20.1")
 
+    compileOnly fg.deobf("maven.modrinth:dynamic-trees-quark:1.20.1-2.5.3")
+
     compileOnly fg.deobf("maven.modrinth:dynamic-trees-bwg:1.20.1-1.0.8")
     compileOnly fg.deobf("maven.modrinth:oh-the-biomes-weve-gone:1.7.0-Forge")
     compileOnly fg.deobf("maven.modrinth:oh-the-trees-youll-grow:1.20.1-1.4.2-Forge")

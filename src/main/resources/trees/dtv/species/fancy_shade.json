@@ -1,15 +1,14 @@
 {
     "family": "dtv:shade",
-    "tapering": 0.3,
-    "signal_energy": 85.0,
-    "up_probability": 2,
-    "lowest_branch_height": 5,
+    "tapering": 0.4,
+    "signal_energy": 22.0,
+    "up_probability": 1,
+    "lowest_branch_height": 6,
     "growth_rate": 0.9,
-    "growth_logic_kit": "dark_oak",
+    "max_branch_radius": 24,
+    "growth_logic_kit": "dark_oak",    
     "leaves_properties": "dtv:shade",
-    "cell_kit": "dense",
-    "generate_seed": true,
-    "generate_sapling": true,
+    "cell_kit": "dark_oak",
     "environment_factors": {
       "#forge:is_cold": 0.75,
       "#forge:is_hot": 0.9,
@@ -27,7 +26,7 @@
           "min_radius": 6,
           "scale": 3.5
         }
-      },
+      },      
       {
         "name": "mound",
         "properties": {
@@ -37,8 +36,15 @@
       {
         "name": "roots",
         "properties": {
-          "min_trunk_radius": 10,
-          "scale_factor": 32
+          "min_trunk_radius": 8,
+          "scale_factor": 16
+        }
+      },      
+      {
+        "name": "vines",
+        "properties": {
+          "quantity": 24,
+          "max_length": 7
         }
       },
       {
@@ -47,20 +53,11 @@
           "vine_type": "ceiling",
           "block": "dtv:shade_vines_plant",
           "tip_block": "dtv:shade_vines",
-          "max_length": 5,
+          "max_length": 7,
           "quantity": 16,
-          "spacing": 2
-        }
-      },
-      {
-        "name": "vines",
-        "properties": {
-          "quantity": 16,
-          "max_length": 7
+          "spacing": 1
         }
       }
-    ],
-    "lang_overrides": {
-      "seed": "Elder Shade Seed"
-    }
+    ]
   }
+

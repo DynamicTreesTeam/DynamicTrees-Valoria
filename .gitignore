@@ -1,0 +1,23 @@
+# Forge / Gradle junk
+../../#Dynamic Trees Valoria/run/
+run-data/
+build/
+out/
+logs/
+.gradle/
+run/
+
+# IntelliJ/IDEA
+.idea/
+*.iml
+
+# VSCode
+.vscode/
+
+# OS garbage
+Thumbs.db
+.DS_Store
+
+# JVM crash logs
+hs_err_pid*
+replay_pid*

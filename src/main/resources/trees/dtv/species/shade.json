@@ -24,7 +24,13 @@
         "properties": {
           "scale": 3.5
         }
-      },      
+      },
+      {
+        "name": "mound",
+        "properties": {
+          "radius": 4
+        }
+      },
       {
         "name": "roots",
         "properties": {

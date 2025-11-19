@@ -1,17 +1,17 @@
 {
   "block.dtv.dread_branch": "Ветвь жуткодрева",
-  "block.dtv.elder_shade_branch": "Ветвь старого тенедрева",
-  "block.dtv.eldritch_branch": "Ветвь древнего древа",
-  "block.dtv.shade_branch": "Тенедревная ветвь",
+  "block.dtv.eldritch_branch": "Ветвь древнего дерева",
+  "block.dtv.shade_branch": "Ветвь тенедрева",
 
   "species.dtv.dread": "Жуткодрево",
-  "species.dtv.elder_shade": "Старое тенедрево",
-  "species.dtv.eldritch": "Древнее древо",
+  "species.dtv.fancy_shade": "Большое Тенедрево",
+  "species.dtv.fancy_eldritch": "Большое Древнее Древо",
+  "species.dtv.fancy_dread": "Большое Жуткодрево",
+  "species.dtv.eldritch": "Древнее дерево",
   "species.dtv.shade": "Тенедрево",
 
   "item.dtv.dread_seed": "Семя жуткодрева",
-  "item.dtv.elder_shade_seed": "Семя старого тенедрева",
-  "item.dtv.eldritch_seed": "Семя древнего древа",
+  "item.dtv.eldritch_seed": "Семя древнего дерева",
   "item.dtv.shade_seed": "Семя тенедрева",
 
   "block.dtv.shade_vines": "Лозы тенедрева",

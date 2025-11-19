@@ -3,7 +3,7 @@
     "common_species": "dtv:shade",
     "primitive_log": "valoria:shade_log",
     "primitive_stripped_log": "valoria:stripped_shade_log",
-    "max_branch_radius": 28,
+    "max_branch_radius": 24,
     "generate_surface_root": true
 }
 

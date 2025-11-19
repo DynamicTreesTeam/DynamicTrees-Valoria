@@ -1,13 +1,14 @@
 {
     "family": "dtv:eldritch",
     "tapering": 0.2,
-    "signal_energy": 12.0,
-    "up_probability": 0,
-    "lowest_branch_height": 5,
-    "growth_rate": 0.7,
+    "signal_energy": 18.0,
+    "up_probability": 1,
+    "lowest_branch_height": 6,
+    "growth_rate": 0.9,
+    "max_branch_radius": 24,
+    "growth_logic_kit": "dark_oak",    
     "leaves_properties": "dtv:eldritch",
-    "generate_seed": true,
-    "generate_sapling": true,
+    "cell_kit": "dark_oak",
     "environment_factors": {
       "#forge:is_cold": 0.75,
       "#forge:is_hot": 0.9,
@@ -17,26 +18,36 @@
       "name": ".*eldritch.*"
     },
     "primitive_sapling": "valoria:eldritch_sapling",
+    "jo_code_folder": "dtv:trees/dtv/jo_codes/fancy_eldritch",
     "features": [
       "bee_nest",
-      "bottom_flare",
-      "mound",
+      {
+        "name": "bottom_flare",
+        "properties": {
+          "min_radius": 6,
+          "scale": 3.5
+        }
+      },      
+      {
+        "name": "mound",
+        "properties": {
+          "radius": 4
+        }
+      },
       {
         "name": "roots",
         "properties": {
           "min_trunk_radius": 8,
           "scale_factor": 16
         }
-      },
+      },      
       {
         "name": "vines",
         "properties": {
           "quantity": 24,
           "max_length": 7
         }
-      }    
-    ],
-    "lang_overrides": {
-      "seed": "Eldritch Seed"
-    }
-  }           
+      }
+    ]
+  }
+
